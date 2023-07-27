@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     scores[0] = 9.0;
     scores[0] = 9.5;
 
-    static string bigCities[] = {
+    static string bigCities[] = { // 如何声明字符串数组(C语言里面没有字符串类型)
         "New York",
         "Los Angeles",
         "Chicago",
