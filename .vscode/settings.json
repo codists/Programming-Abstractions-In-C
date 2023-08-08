@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "simpio.h": "c"
+        "simpio.h": "c",
+        "array": "c"
     }
 }

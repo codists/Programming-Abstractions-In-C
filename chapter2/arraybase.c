@@ -5,7 +5,21 @@
 
 #define  NJudges 5
 
-int main(int argc, char const *argv[]) {
+/*
+ *SumIntegerArray: 数组求和 
+*/
+int SumIntegerArray(int array[], int n) {
+    int i, sum;
+
+    sum = 0;
+    for (i = 0; i < n; i++) {
+        sum += array[i];
+    }
+    return sum;
+
+}
+
+void main(int argc, char const *argv[]) {
     /*
      * 1.概念：initializer
      * 2.内存分配：是每个元素的总和
@@ -44,9 +58,12 @@ int main(int argc, char const *argv[]) {
     // 1.字符数组
     static char aCity[] = "New York";
 
-    printf(aCity);
-//    // 2.
-//    static string bigCities[] = { // 如何声明字符串数组(C语言里面没有字符串类型)
+   /*
+    * 2.因为string类型经常用到，如何抽象出来进行封装？
+    *
+    * 
+   */ 
+//    static string bigCities[] = { // string为自定义数据类型名称，定义在<genlib.h>
 //            "New York",
 //            "Los Angeles",
 //            "Chicago",
@@ -54,7 +71,33 @@ int main(int argc, char const *argv[]) {
 //            "Philadelphia",
 //            "San Diego",
 //            "Detroit",
-//            "Dallas"
+//            "Dallas", // 注意：这里的逗号不是必须的
 //    };
-    return 0;
+
+    /*
+     * 多维数组声明示例: 单位矩阵(identity matrix)
+     * 单位矩阵：In linear algebra, the identity matrix of size n is the n x n square matrix with
+     * ones on the main diagonal and zeros elsewhere.(见维基百科：https://en.wikipedia.org/wiki/Identity_matrix)
+     * 
+     */
+    static double identityMatrix[3][3] = {
+        {1.0, 0.0, 1.0},
+        {0.0, 1.0, 0.0},
+        {0.0, 0.0, 1.0}
+    };
+    double weight[] = {1.0, 2.0, 3.0};
+    printf("%lu\n", sizeof(weight)); //24, double类型占8bytes,3个元素占24个bytes
+    printf("%p\n", &weight); // 0x7ffc2995ab60
+    printf("%p\n", &weight[0]); // 0x7ffc2995ab60,a[0]地址就是上一个元素的地址
+    printf("%p\n", &weight[1]); // 0x7ffc2995ab68，a[1]比a[0]多8个bytes
+    printf("%p\n", &weight[2]); // 0x7ffc2995ab70,a[2]比a[1]多8个bytes，比a[0]多16个bytes
+
+    /*
+     *  
+     * 
+    */
+    int result;
+    int intList[] = {1, 2, 3, 4, 5}; 
+    result = SumIntegerArray(intList, 5);
+    printf("数组求和：sum=%d\n", result);
 }
