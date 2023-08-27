@@ -1,0 +1,4 @@
+/snap/clion/249/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/249/bin/ninja/linux/x64/ninja -G Ninja -S /home/codists/projects/Programming-Abstractions-In-C/chapter3/piglatingame -B /home/codists/projects/Programming-Abstractions-In-C/chapter3/piglatingame/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/codists/projects/Programming-Abstractions-In-C/chapter3/piglatingame/cmake-build-debug

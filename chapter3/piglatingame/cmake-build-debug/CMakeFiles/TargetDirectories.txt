@@ -1,0 +1,3 @@
+/home/codists/projects/Programming-Abstractions-In-C/chapter3/piglatingame/cmake-build-debug/CMakeFiles/piglatingame.dir
+/home/codists/projects/Programming-Abstractions-In-C/chapter3/piglatingame/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/codists/projects/Programming-Abstractions-In-C/chapter3/piglatingame/cmake-build-debug/CMakeFiles/rebuild_cache.dir

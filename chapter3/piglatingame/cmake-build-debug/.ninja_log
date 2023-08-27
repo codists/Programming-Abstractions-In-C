@@ -1,0 +1,22 @@
+# ninja log v5
+415	584	1693058259336844215	piglatingame	c79b71a8984ff0f
+1	197	1693100559612519352	CMakeFiles/piglatingame.dir/main.c.o	a2cfb9dc9e102dcb
+1	59	1693100584652656082	CMakeFiles/piglatingame.dir/strlib.c.o	15556044fce20612
+8	197	1693100559612519352	CMakeFiles/piglatingame.dir/simpio.c.o	44509263920298bd
+0	45	1693100629956901406	CMakeFiles/piglatingame.dir/exception.c.o	8fa5580cc35a4598
+0	47	1693100629956901406	CMakeFiles/piglatingame.dir/genlib.c.o	52aa361a92742571
+47	103	1693100630012901707	piglatingame	a04e2cd8ebd9f22f
+0	121	1693100847374047993	CMakeFiles/piglatingame.dir/main.c.o	a2cfb9dc9e102dcb
+121	167	1693100847418048221	piglatingame	a04e2cd8ebd9f22f
+4	143	1693104640066299461	CMakeFiles/piglatingame.dir/main.c.o	a2cfb9dc9e102dcb
+143	191	1693104640114299839	piglatingame	a04e2cd8ebd9f22f
+0	131	1693104702834793745	CMakeFiles/piglatingame.dir/main.c.o	a2cfb9dc9e102dcb
+132	174	1693104702874794060	piglatingame	a04e2cd8ebd9f22f
+0	117	1693104714846888277	CMakeFiles/piglatingame.dir/main.c.o	a2cfb9dc9e102dcb
+118	145	1693104714874888497	piglatingame	a04e2cd8ebd9f22f
+0	124	1693149216406028644	CMakeFiles/piglatingame.dir/main.c.o	a2cfb9dc9e102dcb
+124	166	1693149216446028834	piglatingame	a04e2cd8ebd9f22f
+1	57	1693149233802109750	CMakeFiles/piglatingame.dir/main.c.o	a2cfb9dc9e102dcb
+58	92	1693149233838109914	piglatingame	a04e2cd8ebd9f22f
+0	132	1693175966721643848	CMakeFiles/piglatingame.dir/main.c.o	a2cfb9dc9e102dcb
+132	177	1693175966765643173	piglatingame	a04e2cd8ebd9f22f
