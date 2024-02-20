@@ -1,0 +1,3 @@
+D:/Projects/CProjects/Programming-Abstractions-In-C/chapter6/tietactoe/cmake-build-debug/CMakeFiles/tietactoe.dir
+D:/Projects/CProjects/Programming-Abstractions-In-C/chapter6/tietactoe/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Projects/CProjects/Programming-Abstractions-In-C/chapter6/tietactoe/cmake-build-debug/CMakeFiles/rebuild_cache.dir

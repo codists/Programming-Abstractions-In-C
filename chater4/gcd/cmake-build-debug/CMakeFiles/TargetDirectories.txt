@@ -1,0 +1,3 @@
+D:/Projects/CProjects/Programming-Abstractions-In-C/chater4/gcd/cmake-build-debug/CMakeFiles/gcd.dir
+D:/Projects/CProjects/Programming-Abstractions-In-C/chater4/gcd/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Projects/CProjects/Programming-Abstractions-In-C/chater4/gcd/cmake-build-debug/CMakeFiles/rebuild_cache.dir
