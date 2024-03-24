@@ -112,23 +112,4 @@ int StackDepth(stackADT stack);
  */
 stackElementT  GetStackElement(stackADT stack, int index);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #endif
